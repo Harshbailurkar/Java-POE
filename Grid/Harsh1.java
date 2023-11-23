@@ -2,7 +2,7 @@ import java.awt.*;
 
 class Harsh1 extends Frame {
     Harsh1() {
-        setSize(400, 400);
+        setSize(500, 500);
         setVisible(true);
         BorderLayout obj = new BorderLayout(20, 20);
         setLayout(obj);
