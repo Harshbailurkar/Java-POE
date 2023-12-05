@@ -23,6 +23,12 @@ public class p7_KeyPressed extends Frame implements KeyListener {
         l.setText("Key Pressed");
         System.out.println("Key Pressed.....");
     }
+    public void keyReleased(KeyEvent e){
+        System.out.println("key Released");
+    }
+    public void keyTyped(keyEvent e){
+        System.out.println("key Typed");
+    }
 
     public static void main(String[] args) {
         new p7_KeyPressed();
